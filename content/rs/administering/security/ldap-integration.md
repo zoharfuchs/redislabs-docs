@@ -41,8 +41,8 @@ the LDAP server.
 $ vi /tmp/saslauthd.conf
 ```
 
-Note: If you change the path for the conf file, be sure to change the
-system config file we configured in the previous step.
+{{% note %}}If you change the path for the conf file, be sure to change the
+system config file we configured in the previous step.{{% /note %}}
 
 You must specify the URIs for the LDAP servers you will be
 authenticating with. You can specify multiple LDAP servers by listing
@@ -87,8 +87,8 @@ ldap_password: secretSquirrel
 Cluster configured successfully
 ```
 
-Note: If this is a new server installation, for this command to work, a
-cluster must be set up already.
+{{% note %}}If this is a new server installation, for this command to work, a
+cluster must be set up already.{{% /note %}}
 
 ### Step 3: Confirm saslauthd is configured
 
@@ -126,8 +126,8 @@ For the user-role, put in one of the following roles:
 - db_member
 - cluster_viewer
 
-Note: At this time, there is no way to convert an existing account to
-use LDAP. You must delete the existing and create a new account to use.
+{{% note %}}At this time, there is no way to convert an existing account to
+use LDAP. You must delete the existing and create a new account to use.{{% /note %}}
 
 At this point, you should be able to log into the Redis Enterprise
 Software web UI with the user you just created.

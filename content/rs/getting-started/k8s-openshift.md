@@ -229,9 +229,10 @@ In order to create your database, we will log in to the Redis Enterprise UI.
 
   kubectl port-forward your_cluster_name-0 8443:8443
 
-*Note: your_cluster_name-0 is one of your cluster pods. You may consider running the port-forward command in the background.*
+{{% note %}}your_cluster_name-0 is one of your cluster pods. You may consider running the port-forward command in the background.{{% /note %}}
 
-*Note: The Openshift UI provides tools for creating additional routing options, including external routes. These are covered in RedHat Openshift documentation.](https://docs.openshift.com/container-platform/3.9/architecture/networking/routes.html#route-types)*
+{{% note %}}The Openshift UI provides tools for creating additional routing options,
+including external routes. These are covered in [RedHat Openshift documentation](https://docs.openshift.com/container-platform/3.9/architecture/networking/routes.html#route-types).{{% /note %}}
 
 Next, create your database.
 
@@ -246,6 +247,12 @@ Next, create your database.
   
 - Follow the interface’s [instructions to create your database]({{< relref "/rs/administering/database-operations/creating-database.md" >}}).
 
-*Note: In order to conduct the Ping test through Telnet, you can create a new route to the newly created database port in the same way as described above for the UI port. After you create your database, go to the Openshift management console, select your project name and go to Applications-\>Services. You will see two newly created services representing the database along with their IP and port information, similar to the screenshot below.*
+{{% note %}}In order to conduct the Ping test through Telnet, you can create a
+new route to the newly created database port in the same way as described above
+for the UI port. After you create your database, go to the Openshift management console,
+select your project name and go to Applications-\>Services. You will see two
+newly created services representing the database along with their IP and port
+information, similar to the screenshot below.
 
 ![](https://redislabs.com/wp-content/uploads/2018/09/getting-started-kubernetes-openshift-image6.png)
+{{% /note %}}

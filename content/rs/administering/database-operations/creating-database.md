@@ -57,8 +57,8 @@ To create a new database in the UI:
     or a Memcached Flash database, you also have to set the RAM-to-Flash ratio
     for this database. Minimum RAM portion is 10%, and maximum RAM portion is 50%.
 
-    **Note:** The name and the memory limit are the only mandatory
-    parameters.
+    {{% note %}}The name and the memory limit are the only mandatory
+    parameters.{{% /note %}}
 
 1. Specify whether to enable [**replication**]({{< relref "/rs/concepts/high-availability/replication.md" >}}).
 

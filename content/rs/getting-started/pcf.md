@@ -164,7 +164,7 @@ To restore a Redis Enterprise for PCF deployment:
 1. Copy the backup archive to the Ops Manager.
 1. Run the restore command to recover the cluster:
 
-    Note: This command does not recover databases.
+    {{% note %}}This command does not recover databases.{{% /note %}}
 
     ```src
     BOSH_CLIENT_SECRET=<bbr_user_pass> <path_to_bbr> deployment --debug --target <Bosh_OpsManager_IPaddress> --ca-cert=/var/tempest/workspaces/default/root_ca_certificate --username <bbr_user> --deployment <deployment_name> restore --artifact-path=<archive_path>

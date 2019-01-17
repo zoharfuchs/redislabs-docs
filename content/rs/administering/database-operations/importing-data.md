@@ -14,8 +14,8 @@ you are importing from a backup of a sharded database. For additional
 details, refer to the Backup of a sharded database section in [Database
 backup]({{< relref "/rs/administering/database-operations/database-backup.md" >}}).
 
-Note: Importing data via this method will erase all existing content in
-the database.
+{{% note %}}Importing data via this method will erase all existing content in
+the database.{{% /note %}}
 
 ## Importing data into a database
 

@@ -45,8 +45,8 @@ To add a node in Redis Enterprise Software (RS):
     1. In Cluster configuration, select **Join cluster**.
     1. Enter an IP address of a node in the cluster.
 
-        **Note:** You must use the internal IP address if the node has
-        both an internal and external IP address.
+        {{% note %}}You must use the internal IP address if the node has
+        both an internal and external IP address.{{% /note %}}
 
     1. Enter the credentials of the cluster administrator, which you
         defined when you created the cluster.

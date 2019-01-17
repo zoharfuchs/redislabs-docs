@@ -19,7 +19,8 @@ In this quick setup guide, we take you through the steps to run RS in a Docker c
 Before you start, you must install the [Docker engine](https://www.docker.com/get-started)
 on Windows, MacOS or Linux-based operating systems.
 
-Note: Windows and MacOS are currently only supported for development and testing environments.
+{{% note %}}Windows and MacOS are currently only supported for development and
+testing environments.{{% /note %}}
 
 To get started with a single Redis Enterprise Software container:
 
@@ -43,7 +44,7 @@ about installing Docker Engine:
 To pull and start the Redis Enterprise Software Docker container, run this 
 `docker run` command in the terminal or command-line for your operating system.
 
-Note: On Windows, make sure Docker is configured to run Linux-based containers.
+{{% note %}}On Windows, make sure Docker is configured to run Linux-based containers.{{% /note %}}
 
 ```src
 $ docker run -d --cap-add sys_resource --name rp -p 8443:8443 -p 12000:12000 redislabs/redis

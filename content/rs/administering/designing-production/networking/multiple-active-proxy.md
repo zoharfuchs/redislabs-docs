@@ -59,8 +59,8 @@ A database can have one of the following four proxy policies:
 | All Master Shards | There are multiple proxies that are bound to the database, one on each node that hosts a database master shard. This mode fits most use cases that require multiple proxies. |
 | All Nodes | There are multiple proxies that are bound to the database, one on each node in the cluster, regardless of whether or not there is a shard from this database on the node. This mode should be used only in special cases. |
 
-Note: Manual intervention is also available via the rladmin bind add and
-remove commands.
+{{% note %}}Manual intervention is also available via the rladmin bind add and
+remove commands.{{% /note %}}
 
 ## Shard placement policy
 

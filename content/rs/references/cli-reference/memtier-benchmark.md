@@ -128,8 +128,8 @@ $ memtier_benchmark -s $DB_HOST -p $DB_PORT --hide-histogram
 --key-maximum=$N -n allkeys -d 500 --key-pattern=P:P --ratio=1:0
 ```
 
-Note: please remember to run memtier_benchmark on your dedicated load
-generation instance!
+{{% note %}}Remember to run memtier_benchmark on your dedicated load
+generation instance!{{% /note %}}
 
 Please use the following parameters for populating your test database:
 

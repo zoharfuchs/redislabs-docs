@@ -69,8 +69,8 @@ standard Redis database creation.
     the clusters that will host member CRDBs and the admin user account
     to connect to each cluster.
 
-    Note: Make sure you add the cluster you are currently on as a
-    participating cluster.
+    {{% note %}}Make sure you add the cluster you are currently on as a
+    participating cluster.{{% /note %}}
 
 - In the **Database clustering** option, you can either:
 <!-- Also in crdbs.md -->
@@ -82,7 +82,7 @@ standard Redis database creation.
     that the [Multi-key commands]({{< relref "/rs/concepts/high-availability/clustering.md" >}})
     limitations do not apply.
     
-    Note: You cannot enable or disable database clustering after the CRDB is created.
+    {{% note %}}You cannot enable or disable database clustering after the CRDB is created.{{% /note %}}
 
 ## Participating Clusters
 

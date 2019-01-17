@@ -56,8 +56,8 @@ Direct your browser to https://localhost:8443/ on the host machine to
 see the Redis Enterprise Software web console. Simply click the
 **Setup** button to get started.
 
-Note: Depending on your browser, you may see a certificate error. Simply
-choose "continue to the website" to get to the setup screen.
+{{% note %}}Depending on your browser, you may see a certificate error. Simply
+choose "continue to the website" to get to the setup screen.{{% /note %}}
 
 ![setup_linux](/images/rs/setup_linux.png?width=600&height=287)
 

@@ -5,8 +5,8 @@ weight: $weight
 alwaysopen: false
 categories: ["RS"]
 ---
-Note: Modules are not supported in Redis Enterprise Software on
-RHEL/CentOS 6.x
+{{% note %}}Modules are not supported in Redis Enterprise Software on
+RHEL/CentOS 6.x{{% /note %}}
 
 ## Redis Labs Packaged Modules
 

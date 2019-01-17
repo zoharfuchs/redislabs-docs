@@ -66,8 +66,8 @@ by performing the following steps:
     $ sudo ./install.sh -s /var/run/redislabs
     ```
 
-    Note: You must either be the root user or have access to sudo to the
-    root user to run the install process.
+    {{% note %}}You must either be the root user or have access to sudo to the
+    root user to run the install process.{{% /note %}}
 
     The -s switch is to tell install.sh to locate the Linux socket files
     in /var/run/redislabs instead of the default, which is /tmp.

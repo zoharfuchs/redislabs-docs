@@ -25,7 +25,7 @@ of source IP rules that they support [here](https://redislabs.com/pricing).
 You may change your subscription at any time by going to Databases -\>
 Configuration -\> Edit -\> Access Control & Security.
 
-**Note:** only the account owner can upgrade/downgrade the subscription.
+{{% note %}}Only the account owner can upgrade/downgrade the subscription.{{% /note %}}
 
 ## Redis Password
 

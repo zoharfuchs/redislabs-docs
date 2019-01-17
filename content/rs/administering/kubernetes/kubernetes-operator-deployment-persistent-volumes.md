@@ -60,7 +60,7 @@ on AWS uses “gp2” as the Storage Class name while GKE uses
 | *VolumeBindingMode:*    | *Immediate*                                             |
 | *Events:*               | *\<none\>*                                              |
 
-*Note: storageClassName must be specified for this deployment type.*
+{{% note %}}storageClassName must be specified for this deployment type.{{% /note %}}
 
 Example of the redisEnterpriseNodeResources definition:
 

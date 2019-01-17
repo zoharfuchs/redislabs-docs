@@ -25,7 +25,7 @@ We will go through 4 steps to set up our cluster with Redis Enterprise:
 -   Step 3: Setup Redis Enterprise cluster
 -   Step 4: Create a Redis database and test your connectivity
 
-_Note: The deployment is deliberately simplified and is great for getting started with Kubernetes and Redis Enterprise fast. It certainly isn't intended for production use._
+{{% note %}}The deployment is deliberately simplified and is great for getting started with Kubernetes and Redis Enterprise fast. It certainly isn't intended for production use.{{% /note %}}
 
 ### Requirements
 

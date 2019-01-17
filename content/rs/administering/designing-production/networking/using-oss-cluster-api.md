@@ -8,8 +8,8 @@ categories: ["RS"]
 {{%excerpt-include filename="rs/concepts/data-access/oss-cluster-api.md" %}} 
 For more information, see [Redis OSS Cluster API]({{< relref "/rs/concepts/data-access/oss-cluster-api.md" >}}).
 
-Note: The OSS Cluster API setting is not cluster-wide. 
-The setting only applies to the specified database.
+{{% note %}}The OSS Cluster API setting is not cluster-wide. 
+The setting only applies to the specified database.{{% /note %}}
 
 ## Configuring an RS Database to Use the OSS Cluster API
 
@@ -37,7 +37,7 @@ for the specified database.
     rladmin> tune db <database name or ID> oss_cluster enabled
     ```
 
-    Note: To disable OSS Cluster API with rladmin, run: `tune db <database name or ID> oss_cluster disable`
+    {{% note %}}To disable OSS Cluster API with rladmin, run: `tune db <database name or ID> oss_cluster disable`{{% /note %}}
 
 To get the benefits of using the OSS Cluster API, make sure that you are using 
 Redis clients that are cluster-aware, such as redis-py-cluster or jedis.

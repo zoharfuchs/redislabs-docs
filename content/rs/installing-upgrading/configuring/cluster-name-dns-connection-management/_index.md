@@ -53,8 +53,8 @@ IP addresses. For additional details on these components and their
 roles, refer to [System
 architecture]({{< relref "/rs/concepts/_index.md" >}}).
 
-Note: Setting the cluster's FQDN is a one-time operation. Once the FQDN
-is set it cannot be updated.
+{{% note %}}Setting the cluster's FQDN is a one-time operation. Once the FQDN
+is set it cannot be updated.{{% /note %}}
 
 The FQDN must always comply with the IETF's [RFC
 952](http://tools.ietf.org/html/rfc952) standard and section 2.1 of the
@@ -98,8 +98,8 @@ add the following records in the DNS for mydomain.com:
 
 ### 2. Zero-configuration using mDNS (Development option only)
 
-Note: mDNS is not supported for use with production environments and
-should only be used in dev/test environments.
+{{% note %}}mDNS is not supported for use with production environments and
+should only be used in dev/test environments.{{% /note %}}
 
 mDNS (Multicast DNS) is a standard protocol that provides DNS-like name
 resolution and service discovery capabilities to machines on local

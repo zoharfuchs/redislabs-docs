@@ -44,8 +44,8 @@ containers can be accessed from the host OS that is running the containers.
 host machine to see the Redis Enterprise Software web console. Simply
 click the **Setup** button on the page to get started.
 
-    Note: Depending on your browser, you may see a certificate error. Continue to 
-    the website.
+    {{% note %}}Depending on your browser, you may see a certificate error. Continue to 
+    the website.{{% /note %}}
 
     ![image4](/images/rs/image4.png?width=1000&height=611)
 
@@ -100,7 +100,7 @@ Now we have two Redis Enterprise Software clusters with FQDNs
         that the [Multi-key commands]({{< relref "/rs/concepts/high-availability/clustering.md" >}})
         limitations do not apply.
         
-        Note: You cannot enable or disable database clustering after the CRDB is created.
+        {{% note %}}You cannot enable or disable database clustering after the CRDB is created.{{% /note %}}
 
 1. Click **Activate** to create your CRDB.
 

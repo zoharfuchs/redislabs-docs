@@ -11,8 +11,8 @@ zones of your application to your RC database may be of interest. First
 you should know why this process matters and if you need to bother with
 it at all.
 
-**Note:** If you have a Multi-AZ subscription in Redis Enterprise Cloud,
-you do not need to perform AWS Zone Mapping.
+{{% note %}}If you have a Multi-AZ subscription in Redis Enterprise Cloud,
+you do not need to perform AWS Zone Mapping.{{% /note %}}
 
 ## Why Do Zone Mapping?
 

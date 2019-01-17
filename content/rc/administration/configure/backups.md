@@ -123,8 +123,8 @@ bucket's name is backups-bucket, you should use the following path:
 
 `gs://backups-bucket`
 
-Note: Backup to GCS locations is only available for Google Cloud
-Platform subscriptions.
+{{% note %}}Backup to GCS locations is only available for Google Cloud
+Platform subscriptions.{{% /note %}}
 
 ## Azure Blob Storage (ABS)
 

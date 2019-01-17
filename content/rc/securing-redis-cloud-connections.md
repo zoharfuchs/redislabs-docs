@@ -10,8 +10,8 @@ Enterprise Cloud (RC) database, please contact support. To speed up this
 process, provide the agent with the Account ID and subscription number
 where you desire SSL service.
 
-**Note:** Be aware that you will incur additional monthly costs by
-enabling SSL.
+{{% note %}}Be aware that you will incur additional monthly costs by
+enabling SSL.{{% /note %}}
 
 To find your account number, go to the "Settings" page in the Web UI and
 look for "Account Number":

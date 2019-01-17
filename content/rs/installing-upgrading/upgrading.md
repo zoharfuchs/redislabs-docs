@@ -31,8 +31,8 @@ package]({{< relref "/rs/installing-upgrading/downloading-installing.md" >}})
 on all of the machines on which RS is installed. First upgrade the master
 node and only then the other nodes.
 
-Note: The master node can be identified by running the 'rladmin status
-nodes' command and checking the ROLE value of each node.
+{{% note %}}The master node can be identified by running the 'rladmin status
+nodes' command and checking the ROLE value of each node.{{% /note %}}
 
 You will run install.sh from the directory where you untarred the media
 just like you do for a new install. The software will recognize this is

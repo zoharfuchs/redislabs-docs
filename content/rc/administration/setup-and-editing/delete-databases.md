@@ -9,7 +9,7 @@ Deleting a database is just as easy as creating one. Make sure that you
 are truly done with the database as once you delete the database, it
 cannot be recovered (except from your backups).
 
-Note: Only users defined as Owners on the team can delete a database.
+{{% note %}}Only users defined as Owners on the team can delete a database.{{% /note %}}
 
 ### Steps
 

@@ -128,8 +128,8 @@ PING
 +PONG
 ```
 
-Note: We recommend loading the redis-cli command-line utility for future
-use as you will use it for other things.
+{{% note %}}We recommend loading the redis-cli command-line utility for future
+use as you will use it for other things.{{% /note %}}
 
 ### Using redis-cli
 

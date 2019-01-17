@@ -39,8 +39,8 @@ complexity of a cluster-aware Redis client. This allows applications to
 benefit from using the cluster without performing any code changes, even
 if they were not designed to use it beforehand.
 
-**Note:** Redis Enterprise Cloud clustering is only available in the
-"Pay-As-You-Go" subscription.
+{{% note %}}Redis Enterprise Cloud clustering is only available in the
+"Pay-As-You-Go" subscription.{{% /note %}}
 
 ![subscription-selection-2](/images/rc/subscription-selection-2.png?width=600&height=221)
 

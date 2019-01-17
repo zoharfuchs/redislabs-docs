@@ -61,8 +61,8 @@ subscription.
 1. Give your database a name.
 1. Click the **Activate** button to create your database.
 
-Note: the Endpoint displayed on this page is very important because it
-is your entry point to this database.
+{{% note %}}the Endpoint displayed on this page is very important because it
+is your entry point to this database.{{% /note %}}
 
 ![rc-view-database-endpoint](/images/rc/rc-view-database-endpoint.png?width=600&height=409)
 
@@ -83,8 +83,8 @@ PING
 +PONG
 ```
 
-Note: We recommend loading the redis-cli command-line utility for future
-use as you will use it for other things.
+{{% note %}}We recommend loading the redis-cli command-line utility for future
+use as you will use it for other things.{{% /note %}}
 
 ### Using redis-cli
 
