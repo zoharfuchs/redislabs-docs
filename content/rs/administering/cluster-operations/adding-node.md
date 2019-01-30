@@ -16,7 +16,7 @@ To add a node in Redis Enterprise Software (RS):
     For example, if you installed the RS package on a machine with IP
     address 10.0.1.34, then navigate to https://10.0.1.34:8443.
 
-    **Note:** The RS management UI uses SSL encryption. For additional
+    **Note:** The RS management UI uses SSL/TLS encryption. For additional
     details, refer to [Updating SSL
     certificates]({{< relref "/rs/administering/cluster-operations/updating-certificates.md" >}}).
 
