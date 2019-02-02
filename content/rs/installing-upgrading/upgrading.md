@@ -7,7 +7,7 @@ categories: ["RS"]
 aliases: /rs/administering/installing-upgrading/upgrading/
 ---
 Upgrading Redis Enterprise Software (RS) consists of upgrading the
-software on each of the nodes.
+software and database on each of the nodes.
 
 {{% warning %}}Before you upgrade, you must read the [RS 5.4 release notes]({{< relref "/rs/release-notes/rs-5-4-december-2018.md" >}}), including the [5.4 upgrade notes]({{< relref "/rs/release-notes/rs-5-4-december-2018.md#upgrade" >}}).{{% /warning %}}
 
@@ -109,7 +109,7 @@ RS, Redis Labs recommends that you upgrade your Redis databases.
     as described in Upgrading nodes section above. Otherwise, you will
     not be able to upgrade the databases.
 1. In the [rladmin CLI]({{< relref "/rs/references/cli-reference/rladmin.md" >}}),
-    run the upgrade db command for each database.
+    run the upgrade db command for each database by "rladmin upgrade db db-identifier" when db-identifier can be either db:id)
 
 During the database upgrade process, the database will be restarted. As
 a result:
